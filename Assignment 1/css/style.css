@@ -1,0 +1,12 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: hsl(0, 20%, 53%);
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 213, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
