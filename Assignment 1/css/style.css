@@ -3,10 +3,20 @@ body{
     margin: auto;
 }
 
-header{
+header > h1{
     background-color: hsl(0, 20%, 53%);
+    border: 2px solid black;
     text-align: center;
     padding: 10px;
     color: rgb(255, 213, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p{
+    padding: 10px;
+    background-color: hsl(0, 20%, 53%);
+    border: 2px solid black;
+    color: rgb(255, 213, 0);
+    text-align: center;
+    font-size: large;
 }
