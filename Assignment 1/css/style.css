@@ -42,6 +42,7 @@ aside{
     width: 400px;
     float: right;
     margin: 15px 0px 0px 0px;
+    height: 100%;
 }
 aside h2{
     background-color: hsl(177, 51%, 60%);
