@@ -1,5 +1,6 @@
 body{
     width: 1200px;
+    height: screen;
     margin: auto;
 }
 
@@ -36,6 +37,16 @@ main>section h2{
 
 #Biography{
     margin: 10px 0px 0px 15px;
+}
+
+#first{
+    width: 400px;
+    position: relative;
+    top: 10px;
+}
+
+main > section figcaption{
+    margin: 5px 0px 0px 0px;
 }
 
 aside{
