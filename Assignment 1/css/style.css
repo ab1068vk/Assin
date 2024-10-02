@@ -52,7 +52,7 @@ section p{
 
 #third{
     text-align: center;
-    padding: 100px;
+    padding: 110px;
     
     position: absolute;
     top: 0px;
@@ -65,12 +65,12 @@ section p{
 #second {
     width: 500px;
     position: relative;
-    top: 550px;
+    top: 500px;
 }
 
 #third h2{
     color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 
@@ -78,7 +78,7 @@ section p{
 
 
 #Quote{
-    margin-top: 600px;
+    margin-top: 520px;
     
 }
 
