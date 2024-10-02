@@ -44,20 +44,42 @@ section p{
     margin: 10px 15px 15px 20px;
 }
 
-#first figure{
+#first {
     width: 400px;
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 250px;
 }
 
-#second figure{
-    width: 500px;
+#third{
+    text-align: center;
+    padding: 100px;
+    
     position: absolute;
-    top: 850px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
 }
+
+#second {
+    width: 500px;
+    position: relative;
+    top: 550px;
+}
+
+#third h2{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+
+
 
 #Quote{
-    margin-top: 400px;
+    margin-top: 600px;
+    
 }
 
 
