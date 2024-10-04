@@ -89,10 +89,11 @@ aside{
     width: 400px;
     float: right;
     
+    
 }
 aside h2{
     background-color: hsl(177, 51%, 60%);
-    background-size: 100vh;
+    height: 300px;
     border: 2px solid white;
     border-radius: 10px;
     padding: 10px;
