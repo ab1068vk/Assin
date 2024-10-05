@@ -84,14 +84,11 @@ section p{
 
 
 
+
 aside{
-    
-    width: 400px;
+    width: 320px;
     float: right;
     
-    
-}
-aside h2{
     background-color: hsl(177, 51%, 60%);
     height: 300px;
     border: 2px solid white;
