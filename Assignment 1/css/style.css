@@ -97,3 +97,9 @@ aside{
     color: black;
     margin: 15px 0px 0px 15px;
 }
+
+
+ul li a:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
