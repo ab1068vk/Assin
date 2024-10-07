@@ -1,6 +1,6 @@
 body{
     width: 1200px;
-    
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -95,7 +95,7 @@ aside{
     border-radius: 10px;
     padding: 10px;
     color: black;
-    margin: 15px 0px 0px 15px;
+    margin: 15px 15px 0px 15px;
 }
 
 
