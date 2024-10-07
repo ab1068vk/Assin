@@ -98,7 +98,12 @@ aside{
     margin: 15px 15px 0px 15px;
 }
 
-
+ul{
+    list-style-type: none;
+}
+ul li a{
+    margin-left: 50pxs;
+}
 ul li a:hover{
     background-color: aqua;
     border-radius: 5px;
