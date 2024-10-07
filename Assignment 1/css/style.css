@@ -102,7 +102,7 @@ ul{
     list-style-type: none;
 }
 ul li a{
-    margin-left: -30px;
+    margin-left: -35px;
 }
 ul li a:hover{
     background-color: aqua;
