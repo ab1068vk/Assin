@@ -91,7 +91,7 @@ aside{
     
     background-color: hsl(177, 51%, 60%);
     height: 300px;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     padding: 10px;
     color: black;
