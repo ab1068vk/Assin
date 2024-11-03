@@ -96,7 +96,7 @@ aside{
     flex-grow: 1;
     /*float: right;*/
     
-    background-color: hsl(177, 51%, 60%);
+    /*background-color: hsl(177, 51%, 60%);*/
     height: 300px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
@@ -105,6 +105,9 @@ aside{
     margin: 15px 15px 0px 15px;
 }
 
+.aside{
+    background: url("Assin/Assignment 2/images/n0_bbcaf01_1_us.webp");
+}
 aside h2{
     margin-left: 15px;
 }
