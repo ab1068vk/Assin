@@ -1,8 +1,5 @@
-body{
-    width: 1200px;
-    max-width: 1200px;
-    margin: auto;
-}
+
+
 
 header{
     background-image:linear-gradient(90deg, rgb(0, 255, 55), rgba(255,238,0,1));
@@ -15,10 +12,10 @@ header{
     font-variant: small-caps;
     margin-bottom: 10px;
 }
-
 header nav{
-    margin-left:300px;
+    text-align: center;
 }
+
 header nav a{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -27,7 +24,7 @@ header nav a{
     padding: 15px;
     border: 1px solid black;
     border-radius: 10px;
-    text-align: center;
+    
 }
 
 header nav ul li a:hover{
@@ -86,10 +83,24 @@ footer p{
     clear: both; 
 }
 
+ main div{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 10px;
+    
+}
 
 
-main img{
+main figure img{
     width: 100%;
+}
+main{
+    display: flex;
+}
+
+main div{
+    flex-basis: 2.5fr;
 }
 
 
@@ -100,7 +111,7 @@ main img{
 
 aside{
     width: 320px;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     /*float: right;*/
     
     /*background-color: hsl(177, 51%, 60%);*/
