@@ -111,10 +111,11 @@ main div{
 
 aside{
     width: 320px;
-    /*flex-grow: 1;*/
+    flex-grow: 1;
     /*float: right;*/
     
     /*background-color: hsl(177, 51%, 60%);*/
+    
 
     height: 300px;
     border: 2px solid rgb(0, 0, 0);
@@ -128,8 +129,45 @@ aside{
     background: url(../images/canada.jpg);
     background-size: cover;
 }
+@media (max-width:500px){
+    header{
+        display: inline-block;
+    }
+    header nav a{
+        text-align: center;
+        max-width: max-content;
+        padding: 2px;
+        margin: 3px;
+        
+    }
+    header nav ul li ul li a{
+        max-width: max-content;
+        padding: 2px;
+        margin: 3px;
+    }
+}
 
+@media (max-width:1000px){
+    main aside{
+        border: 3px solid blue;
+        background: rgb(92, 155, 194);
+    }
+}
 
+@media(max-width:520px){
+    main{
+        margin-left: 0px;
+        max-width: max-content;
+        display: inline-block;
+    }
+    main div figure img{
+        width: 85%;
+    }
+
+    main aside{
+        width: 75%;
+    }
+}
 
 
 
