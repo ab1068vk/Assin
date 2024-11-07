@@ -100,7 +100,7 @@ main{
 }
 
 main div{
-    flex-basis: 2.5fr;
+    flex-basis: 80%;
 }
 
 
@@ -127,7 +127,7 @@ aside{
 
 aside{
     background: url(../images/canada.jpg);
-    background-size: 50%;
+    background-size: contain;
 }
 @media (max-width:500px){
     header{
@@ -136,8 +136,8 @@ aside{
     header nav a{
         text-align: center;
         max-width: max-content;
-        padding: 2px;
-        margin: 3px;
+        padding: 5px;
+        margin: 10px;
         
     }
     header nav ul li ul li a{
@@ -155,12 +155,16 @@ aside{
 }
 
 @media(max-width:520px){
+    figure{
+        margin: 5px;
+    }
     main{
-        margin-left: 0px;
+        margin: 0px;
         max-width: max-content;
         display: inline-block;
     }
     main div figure img{
+        
         width: 85%;
     }
 
@@ -168,6 +172,7 @@ aside{
         width: 75%;
     }
 }
+
 
 
 
