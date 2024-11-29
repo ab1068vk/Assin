@@ -151,6 +151,16 @@ aside{
     main aside{
         border: 3px solid blue;
         background: rgb(92, 155, 194);
+        
+    }
+
+    main aside h1{
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    main aside a{
+        font-size: medium;
     }
 }
 
@@ -177,7 +187,7 @@ aside{
 
 
 
-aside h2{
+aside h1{
     margin-left: 15px;
 }
 
