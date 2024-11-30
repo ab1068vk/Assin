@@ -71,21 +71,21 @@ nav ul li ul li a:hover{
     background-color: gray;
     color: white;
 }
-main{
-    display: flex;
- }
+
  main section{
     flex-basis: 800px;
     background-color: aquamarine;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 6px;
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 main section h1{
-    margin-left: 400px;
+    align-items: center;
     text-align: center;
 }
 
