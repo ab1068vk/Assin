@@ -71,7 +71,9 @@ nav ul li ul li a:hover{
     background-color: gray;
     color: white;
 }
-
+main{
+    display: flex;
+}
  main section{
     flex-basis: 800px;
     background-color: aquamarine;
@@ -129,7 +131,7 @@ aside{
 
 
 
-aside h1{
+aside h3{
     margin-left: 15px;
 }
 
@@ -140,4 +142,8 @@ ul{
 ul li a:hover{
     background-color: aqua;
     border-radius: 5px;
+}
+
+iframe {
+    max-width: 100%;
 }
