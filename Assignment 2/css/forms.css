@@ -72,14 +72,17 @@ nav ul li ul li a:hover{
     color: white;
 }
 
+nav ul li ul li{
+    z-index: 1;
+}
+
 main{
     display: flex;
  }
  
  main div:nth-child(1){
      flex-basis: 800px;
-     background-color: aquamarine;
-     border: 2px solid rgb(0, 0, 0);
+     
      border-radius: 6px;
      flex-direction: column;
      justify-content: space-evenly;
@@ -139,4 +142,34 @@ ul{
 ul li a:hover{
     background-color: aqua;
     border-radius: 5px;
+}
+#form{
+    background-color: rgb(145, 106, 106);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#name:invalid:not(:placeholder-shown){
+    border:2px solid red;
+}
+#name:valid{
+    border:3px solid green;
+}
+#email:invalid:not(:placeholder-shown){
+    border:3px solid red;
+}
+#email:valid{
+    border:3px solid green;
+}
+#select:invalid:not(:selected-shown){
+    border:2px solid red;
+}
+#select:valid{
+    border: 4px solid green;
+}
+
+#sub:invalid:not(:sub-shown){
+    border:2px solid red;
+}
+#sub:valid{
+    border: 4px solid green;
 }
