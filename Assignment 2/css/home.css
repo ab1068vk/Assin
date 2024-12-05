@@ -120,7 +120,7 @@ section p{
 
 #third{
     text-align: center;
-    padding: 100px;
+    padding: 70px;
     
     position: absolute;
     top: 0px;
@@ -136,10 +136,11 @@ section p{
     top: 500px;
 }
 
-#third h2{
-    color: red;
+#third p{
+    color: #000080;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+    width: 60px;
 }
 
 
